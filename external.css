@@ -1,0 +1,24 @@
+ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    border: 0.5px solid red;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-between;
+   
+   }
+
+   li{
+    border: 1px dotted green;
+    margin: 0.5em;
+    padding: 0.5em;
+   }
+
+   .first{
+     order: 1;
+
+   }
+   .second{
+      order: 3;
+   }
